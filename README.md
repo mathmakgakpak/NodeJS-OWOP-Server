@@ -1,5 +1,5 @@
 # owop-server
-Created by dimden & mathias377\
+This server was created by FP#9390 (FunPoster or system2k), mathias377#3326, dimden#1877 (eff the cops or fluffy boi)\
 dimden's discord: [k4u7ddk](https://discord.gg/k4u7ddk)\
 mathias377's discord: [SMtED4J](https://discord.gg/SMtED4J)\
 \
