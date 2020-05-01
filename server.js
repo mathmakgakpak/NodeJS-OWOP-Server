@@ -500,14 +500,25 @@ class Server extends EventEmitter {
       getIp(req) {
         return (req.headers['x-forwarded-for'] || req.connection.remoteAddress).split(",")[0].replace('::ffff:', '');
       },
+      isPositive(x) {
+        return Math.sign(x) === 1 || x ===0;
+      },
       outsideWorldBorder(x, y, raw = true) {
+        if(that.worldBorder === -1) return false;
         if(!raw) {
           x = Math.floor(x/16);
           y = Math.floor(y/16);
         }
+        if(that.utils.isPositive(x)) x++;
+        if(that.utils.isPositive(y)) y++;
+        
         return Math.abs(x) > that.worldBorder || Math.abs(y) > that.worldBorder;
       },
       outsideTpLimit(x, y) {
+        if(that.tpLimit === -1) return false;
+        
+        if(that.utils.isPositive(x)) x++;
+        if(that.utils.isPositive(y)) y++;
         return Math.abs(x) > that.tpLimit || Math.abs(y) > that.tpLimit;
       },
       player: class {
@@ -769,7 +780,7 @@ class Server extends EventEmitter {
 
 
     // server
-    this.worldBorder = 1048576; // Math.pow(2, 24) / 16
+    this.worldBorder =  Math.pow(2, 24) / 16
     this.tpLimit = 1000000;
     this.updateInterval = options.updateInterval || Math.floor(1000 / 30);
     this.TERMINATION = false;
