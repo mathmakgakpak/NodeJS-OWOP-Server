@@ -7,7 +7,7 @@ mathias377's discord: [SMtED4J](https://discord.gg/SMtED4J)\
 docs by mathias377 so that's why they're dumb written // dimden\
 *Example:*
 ```js
-const OWOPServer = require("owop-server");
+const Server = require("owop-server");
 
 let server = new Server({
 	//options
