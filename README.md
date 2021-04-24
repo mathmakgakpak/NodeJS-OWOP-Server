@@ -1,3 +1,8 @@
+# I'm not proud of this server
+1. it is all in one file cuz dimden wanted it to be as small as possible
+2. docs are not finished
+3. the chunks manager is old if someone would write another owop server in js or cpp use jpg instead of weird chunks
+
 # owop-server
 This server was created by FP#9390 (FunPoster or system2k), mathias377#3326, dimden#1877 (eff the cops or fluffy boi)\
 dimden's discord: [k4u7ddk](https://discord.gg/k4u7ddk)\
