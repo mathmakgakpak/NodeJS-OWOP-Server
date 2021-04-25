@@ -1,3 +1,4 @@
+# The project is probably abonded
 # I'm not proud of this server
 1. it is all in one file cuz dimden wanted it to be as small as possible
 2. docs are not finished
