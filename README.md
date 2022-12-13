@@ -1,16 +1,15 @@
 # The project is probably abonded
 # I'm not proud of this server
-1. it is all in one file cuz dimden wanted it to be as small as possible
-2. docs are not finished
-3. the chunks manager is old if someone would write another owop server in js or cpp use jpg instead of weird chunks
+1. It is all in one file
+2. Docs are not finished
+3. The chunks manager is old. If someone would write another owop server in js or in any other language use jpg instead of weird chunks
 
 # owop-server
-This server was created by FP#9390 (FunPoster or system2k), mathias377#3326, dimden#1877 (eff the cops or fluffy boi)\
+This server was created by FP#9390 (FunPoster or system2k), felpcereti#9857, dimden#1877\
 dimden's discord: [k4u7ddk](https://discord.gg/k4u7ddk)\
-mathias377's discord: [SMtED4J](https://discord.gg/SMtED4J)\
+mathias377's discord: sus\
 \
 \
-docs by mathias377 so that's why they're dumb written // dimden\
 *Example:*
 ```js
 const Server = require("owop-server");
@@ -103,7 +102,7 @@ user.before; // returns user's before example: [id] nick
 
 user.setRank(rank); // sets user rank; all things like pquota/cquota/helpmessage is sent automatically
 
-user.setMaxCount(server.maxClientsOnWorld); // sets maxcount thing
+user.setMaxCount(server.maxClientsOnWorld); // sets maxcount thing ??????????
 user.setPQuota(rate, per); // sets pixel quota
 
 user.setId(id); // sets id client
@@ -163,22 +162,3 @@ server.manager.setChunk(user.world.name, 0, 0, chunkData); // sets chunk in data
 `worldBorder` - after that value requested chunks wont be sent to client; Math.pow(2, 24)/16 === 1048576
 
 `updateInterval` - server updates interval like player updates/disconnections/pixel updates
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
