@@ -1,11 +1,11 @@
-# The project is probably abonded
+# The project is abonded
 # I'm not proud of this server
 1. It is all in one file
 2. Docs are not finished
 3. The chunks manager is old. If someone would write another owop server in js or in any other language use jpg instead of weird chunks
 
 # owop-server
-This server was created by FP#9390 (FunPoster or system2k), felpcereti#9857, dimden#1877\
+This server was created by FP#9390 (FunPoster or system2k), felpcereti#9857 (mathias377), dimden#1877\
 dimden's discord: [k4u7ddk](https://discord.gg/k4u7ddk)\
 mathias377's discord: sus\
 \
